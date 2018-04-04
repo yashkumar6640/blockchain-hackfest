@@ -959,7 +959,7 @@ export class TaxAndCustom extends React.Component {
                 <p classname="para">Consignee</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="SENSOR TYPES" />
+                <input type="text" name="name" placeholder="SENSOR TYPE" />
               </div>
             </div>
             <div className="input-div">
