@@ -1,0 +1,14 @@
+.outer-layer-goods {
+    /* background-color: #222222; */
+    background-color: #222222;
+    height: 100%;
+    width: 150vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+  .container-goods-layout{
+    width: 100%;
+    height: 100%;
+    background-image: url("img.jpg");}
