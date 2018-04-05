@@ -476,7 +476,7 @@ export class BillOfLading extends React.Component {
                 <p classname="para">UUID</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="UUID" />
+                <input type="text" name="uuid" placeholder="UUID" />
               </div>
             </div>
             <div className="input-div">
@@ -484,7 +484,7 @@ export class BillOfLading extends React.Component {
                 <p classname="para">STEPS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STEPS" />
+                <input type="text" name="step" placeholder="STEP" />
               </div>
             </div>
             <div className="input-div">
@@ -492,7 +492,7 @@ export class BillOfLading extends React.Component {
                 <p classname="para">STATUS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STATUS" />
+                <input type="text" name="status" placeholder="STATUS" />
               </div>
             </div>
             <div className="input-div">
@@ -500,7 +500,7 @@ export class BillOfLading extends React.Component {
                 <p classname="para">DATE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="DATE FIELD" />
+                <input type="text" name="date" placeholder="DATE FIELD" />
               </div>
             </div>
             <div className="input-div">
@@ -510,8 +510,8 @@ export class BillOfLading extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="shipper"
+                  placeholder="SHIPPER"
                 />
               </div>
             </div>
@@ -520,7 +520,7 @@ export class BillOfLading extends React.Component {
                 <p classname="para">CONSIGNEE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="SENSOR TYPES" />
+                <input type="text" name="consignee" placeholder="CONSIGNEE" />
               </div>
             </div>
             <div className="input-div">
@@ -530,8 +530,8 @@ export class BillOfLading extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="NUMBER OF SENSORS"
+                  name="localvessel"
+                  placeholder="LOCAL VESSEL"
                 />
               </div>
             </div>
@@ -540,7 +540,7 @@ export class BillOfLading extends React.Component {
                 <p classname="para">PORT OF DISCHARGE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="COST OF SENSORS" />
+                <input type="text" name="portofdischarge" placeholder="PORT OF DISCHARGE" />
               </div>
             </div>
             <div>
@@ -583,7 +583,7 @@ export class PackingList extends React.Component {
                 <p classname="para">UUID</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="UUID" />
+                <input type="text" name="uuid" placeholder="UUID" />
               </div>
             </div>
             <div className="input-div">
@@ -591,7 +591,7 @@ export class PackingList extends React.Component {
                 <p classname="para">STEP</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STEPS" />
+                <input type="text" name="step" placeholder="STEP" />
               </div>
             </div>
             <div className="input-div">
@@ -599,7 +599,7 @@ export class PackingList extends React.Component {
                 <p classname="para">STATUS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STATUS" />
+                <input type="text" name="status" placeholder="STATUS" />
               </div>
             </div>
             <div className="input-div">
@@ -607,7 +607,7 @@ export class PackingList extends React.Component {
                 <p classname="para">DATE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="DATE FIELD" />
+                <input type="text" name="date" placeholder="DATE FIELD" />
               </div>
             </div>
             <div className="input-div">
@@ -617,8 +617,8 @@ export class PackingList extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="shipto"
+                  placeholder="SHIP TO"
                 />
               </div>
             </div>
@@ -627,7 +627,7 @@ export class PackingList extends React.Component {
                 <p classname="para">PO No.</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="SENSOR TYPES" />
+                <input type="text" name="pono" placeholder="PO No." />
               </div>
             </div>
             <div className="input-div">
@@ -637,8 +637,8 @@ export class PackingList extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="NUMBER OF SENSORS"
+                  name="items"
+                  placeholder="ITEMS"
                 />
               </div>
             </div>
@@ -647,7 +647,7 @@ export class PackingList extends React.Component {
                 <p classname="para">QUANTITY</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="COST OF SENSORS" />
+                <input type="text" name="quantity" placeholder="QUANTITY" />
               </div>
             </div>
             <div>
@@ -696,7 +696,7 @@ export class CertificateOfOrigin extends React.Component {
                 <p classname="para">UUID</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="UUID" />
+                <input type="text" name="uuid" placeholder="UUID" />
               </div>
             </div>
             <div className="input-div">
@@ -704,7 +704,7 @@ export class CertificateOfOrigin extends React.Component {
                 <p classname="para">STEP</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STEPS" />
+                <input type="text" name="step" placeholder="STEP" />
               </div>
             </div>
             <div className="input-div">
@@ -712,7 +712,7 @@ export class CertificateOfOrigin extends React.Component {
                 <p classname="para">STATUS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STATUS" />
+                <input type="text" name="status" placeholder="STATUS" />
               </div>
             </div>
             <div className="input-div">
@@ -720,7 +720,7 @@ export class CertificateOfOrigin extends React.Component {
                 <p classname="para">DATE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="DATE FIELD" />
+                <input type="text" name="date" placeholder="DATE FIELD" />
               </div>
             </div>
             <div className="input-div">
@@ -730,8 +730,8 @@ export class CertificateOfOrigin extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="shippernameandaddress"
+                  placeholder="SHIPPER NAME AND ADDRESS"
                 />
               </div>
             </div>
@@ -740,7 +740,7 @@ export class CertificateOfOrigin extends React.Component {
                 <p classname="para">CONSIGNEE NAME AND ADDRESS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="SENSOR TYPES" />
+                <input type="text" name="consigneenameandaddress" placeholder="CONSIGNEE NAME AND ADDRESS" />
               </div>
             </div>
             <div className="input-div">
@@ -750,8 +750,8 @@ export class CertificateOfOrigin extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="NUMBER OF SENSORS"
+                  name="countryofmanufacture"
+                  placeholder="COUNTRY OF MANUFACTURE"
                 />
               </div>
             </div>
@@ -760,7 +760,7 @@ export class CertificateOfOrigin extends React.Component {
                 <p classname="para">TOTAL NO. OF PACKAGES</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="COST OF SENSORS" />
+                <input type="text" name="totalnoofpackages" placeholder="TOTAL NO. OF PACKAGES" />
               </div>
             </div>
             <div>
@@ -806,7 +806,7 @@ export class Insurance extends React.Component {
                 <p classname="para">UUID</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="UUID" />
+                <input type="text" name="uuid" placeholder="UUID" />
               </div>
             </div>
             <div className="input-div">
@@ -814,7 +814,7 @@ export class Insurance extends React.Component {
                 <p classname="para">STEPS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STEPS" />
+                <input type="text" name="step" placeholder="STEP" />
               </div>
             </div>
             <div className="input-div">
@@ -822,7 +822,7 @@ export class Insurance extends React.Component {
                 <p classname="para">STATUS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STATUS" />
+                <input type="text" name="status" placeholder="STATUS" />
               </div>
             </div>
             <div className="input-div">
@@ -830,7 +830,7 @@ export class Insurance extends React.Component {
                 <p classname="para">DATE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="DATE FIELD" />
+                <input type="text" name="date" placeholder="DATE FIELD" />
               </div>
             </div>
             <div className="input-div">
@@ -840,8 +840,8 @@ export class Insurance extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="totalinsurancepaid"
+                  placeholder="TOTAL INSURANCE PAID"
                 />
               </div>
             </div>
@@ -850,7 +850,7 @@ export class Insurance extends React.Component {
                 <p classname="para">TYPE OF INSURANCE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="SENSOR TYPES" />
+                <input type="text" name="typeofinsurance" placeholder="TYPE OF INSURANCE" />
               </div>
             </div>
             <div className="input-div">
@@ -860,8 +860,8 @@ export class Insurance extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="NUMBER OF SENSORS"
+                  name="insurancevalidtill"
+                  placeholder="INSURANCE VALID TILL"
                 />
               </div>
             </div>            
@@ -907,15 +907,15 @@ export class TaxAndCustom extends React.Component {
                 <p classname="para">UUID</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="UUID" />
+                <input type="text" name="uuid" placeholder="UUID" />
               </div>
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">STEPS</p>
+                <p classname="para">STEP</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STEPS" />
+                <input type="text" name="step" placeholder="STEP" />
               </div>
             </div>
             <div className="input-div">
@@ -923,7 +923,7 @@ export class TaxAndCustom extends React.Component {
                 <p classname="para">STATUS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STATUS" />
+                <input type="text" name="status" placeholder="STATUS" />
               </div>
             </div>
             <div className="input-div">
@@ -931,7 +931,7 @@ export class TaxAndCustom extends React.Component {
                 <p classname="para">DATE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="DATE FIELD" />
+                <input type="text" name="date" placeholder="DATE FIELD" />
               </div>
             </div>
             <div className="input-div">
@@ -941,8 +941,8 @@ export class TaxAndCustom extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="taxpaid"
+                  placeholder="TAX PAID"
                 />
               </div>
             </div>
@@ -951,7 +951,7 @@ export class TaxAndCustom extends React.Component {
                 <p classname="para">TAX AMOUNT</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="SENSOR TYPE" />
+                <input type="text" name="taxamount" placeholder="TAX AMOUNT" />
               </div>
             </div>
             <div className="input-div">
@@ -961,8 +961,8 @@ export class TaxAndCustom extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="NUMBER OF SENSORS"
+                  name="customspaid"
+                  placeholder="CUSTOMS PAID"
                 />
               </div>
             </div>
@@ -971,7 +971,7 @@ export class TaxAndCustom extends React.Component {
                 <p classname="para">CUSTOMS AMOUNT</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="COST OF SENSORS" />
+                <input type="text" name="customsamount" placeholder="CUSTOMS AMOUNT" />
               </div>
             </div>
             <div>
@@ -1015,7 +1015,7 @@ export class Invoice extends React.Component {
                 <p classname="para">UUID</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="UUID" />
+                <input type="text" name="uuid" placeholder="UUID" />
               </div>
             </div>
             <div className="input-div">
@@ -1023,7 +1023,7 @@ export class Invoice extends React.Component {
                 <p classname="para">STEP</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STEPS" />
+                <input type="text" name="step" placeholder="STEP" />
               </div>
             </div>
             <div className="input-div">
@@ -1031,7 +1031,7 @@ export class Invoice extends React.Component {
                 <p classname="para">STATUS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STATUS" />
+                <input type="text" name="status" placeholder="STATUS" />
               </div>
             </div>
             <div className="input-div">
@@ -1039,7 +1039,7 @@ export class Invoice extends React.Component {
                 <p classname="para">DATE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="DATE FIELD" />
+                <input type="text" name="date" placeholder="DATE FIELD" />
               </div>
             </div>
             <div className="input-div">
@@ -1049,8 +1049,8 @@ export class Invoice extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="item"
+                  placeholder="ITEMS"
                 />
               </div>
             </div>
@@ -1061,8 +1061,8 @@ export class Invoice extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="quantity"
+                  placeholder="QUANTITY"
                 />
               </div>
             </div>  
@@ -1073,8 +1073,8 @@ export class Invoice extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="cost"
+                  placeholder="COST"
                 />
               </div>
             </div>  
@@ -1085,8 +1085,8 @@ export class Invoice extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="vemdordetails"
+                  placeholder="VENDOR DETAILS"
                 />
               </div>
             </div>              
@@ -1131,7 +1131,7 @@ export class TransportDocument extends React.Component {
                 <p classname="para">UUID</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="UUID" />
+                <input type="text" name="uuid" placeholder="UUID" />
               </div>
             </div>
             <div className="input-div">
@@ -1139,7 +1139,7 @@ export class TransportDocument extends React.Component {
                 <p classname="para">STEPS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STEPS" />
+                <input type="text" name="step" placeholder="STEP" />
               </div>
             </div>
             <div className="input-div">
@@ -1147,7 +1147,7 @@ export class TransportDocument extends React.Component {
                 <p classname="para">STATUS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STATUS" />
+                <input type="text" name="status" placeholder="STATUS" />
               </div>
             </div>
             <div className="input-div">
@@ -1155,7 +1155,7 @@ export class TransportDocument extends React.Component {
                 <p classname="para">DATE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="DATE FIELD" />
+                <input type="text" name="date" placeholder="DATE FIELD" />
               </div>
             </div>
             <div className="input-div">
@@ -1165,8 +1165,8 @@ export class TransportDocument extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="awbnumber"
+                  placeholder="AWB NUMBER"
                 />
               </div>
             </div>
@@ -1175,7 +1175,7 @@ export class TransportDocument extends React.Component {
                 <p classname="para">ITEMS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="SENSOR TYPES" />
+                <input type="text" name="items" placeholder="ITEMS" />
               </div>
             </div>
             <div className="input-div">
@@ -1185,8 +1185,8 @@ export class TransportDocument extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="NUMBER OF SENSORS"
+                  name="quantity"
+                  placeholder="QUANTITY"
                 />
               </div>
             </div>
@@ -1195,7 +1195,7 @@ export class TransportDocument extends React.Component {
                 <p classname="para">COST</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="COST OF SENSORS" />
+                <input type="text" name="cost" placeholder="COST" />
               </div>
             </div>
             <div className="input-div">
@@ -1203,7 +1203,7 @@ export class TransportDocument extends React.Component {
                 <p classname="para">TRANSPORT DETAILS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="COST OF SENSORS" />
+                <input type="text" name="trnasportdetails" placeholder="TRANSPORT DETAILS" />
               </div>
             </div>
             <div>
@@ -1246,7 +1246,7 @@ export class BillOfExchange extends React.Component {
                 <p classname="para">UUID</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="UUID" />
+                <input type="text" name="uuid" placeholder="UUID" />
               </div>
             </div>
             <div className="input-div">
@@ -1254,7 +1254,7 @@ export class BillOfExchange extends React.Component {
                 <p classname="para">STEP</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STEPS" />
+                <input type="text" name="step" placeholder="STEP" />
               </div>
             </div>
             <div className="input-div">
@@ -1262,7 +1262,7 @@ export class BillOfExchange extends React.Component {
                 <p classname="para">STATUS</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="STATUS" />
+                <input type="text" name="status" placeholder="STATUS" />
               </div>
             </div>
             <div className="input-div">
@@ -1270,7 +1270,7 @@ export class BillOfExchange extends React.Component {
                 <p classname="para">DATE</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="DATE FIELD" />
+                <input type="text" name="date" placeholder="DATE FIELD" />
               </div>
             </div>
             <div className="input-div">
@@ -1280,8 +1280,8 @@ export class BillOfExchange extends React.Component {
               <div>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="ORGANISATIONAL DETAILS"
+                  name="tenure"
+                  placeholder="TENURE OF USANCE BILL"
                 />
               </div>
             </div>            
