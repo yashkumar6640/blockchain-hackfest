@@ -481,7 +481,7 @@ export class BillOfLading extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Steps</p>
+                <p classname="para">STEPS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STEPS" />
@@ -489,7 +489,7 @@ export class BillOfLading extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Status</p>
+                <p classname="para">STATUS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STATUS" />
@@ -497,7 +497,7 @@ export class BillOfLading extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Date</p>
+                <p classname="para">DATE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="DATE FIELD" />
@@ -505,7 +505,7 @@ export class BillOfLading extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Shipper</p>
+                <p classname="para">SHIPPER</p>
               </span>
               <div>
                 <input
@@ -517,7 +517,7 @@ export class BillOfLading extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Consignee</p>
+                <p classname="para">CONSIGNEE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="SENSOR TYPES" />
@@ -525,7 +525,7 @@ export class BillOfLading extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Local Vessel</p>
+                <p classname="para">LOCAL VESSEL</p>
               </span>
               <div>
                 <input
@@ -537,7 +537,7 @@ export class BillOfLading extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Port of Discharge</p>
+                <p classname="para">PORT OF DISCHARGE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="COST OF SENSORS" />
@@ -588,7 +588,7 @@ export class PackingList extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Steps</p>
+                <p classname="para">STEP</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STEPS" />
@@ -596,7 +596,7 @@ export class PackingList extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Status</p>
+                <p classname="para">STATUS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STATUS" />
@@ -604,7 +604,7 @@ export class PackingList extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Date</p>
+                <p classname="para">DATE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="DATE FIELD" />
@@ -612,7 +612,7 @@ export class PackingList extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Shipper</p>
+                <p classname="para">SHIP TO</p>
               </span>
               <div>
                 <input
@@ -624,7 +624,7 @@ export class PackingList extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Consignee</p>
+                <p classname="para">PO No.</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="SENSOR TYPES" />
@@ -632,7 +632,7 @@ export class PackingList extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Local Vessel</p>
+                <p classname="para">ITEMS</p>
               </span>
               <div>
                 <input
@@ -644,7 +644,7 @@ export class PackingList extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Port of Discharge</p>
+                <p classname="para">QUANTITY</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="COST OF SENSORS" />
@@ -701,7 +701,7 @@ export class CertificateOfOrigin extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Steps</p>
+                <p classname="para">STEP</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STEPS" />
@@ -709,7 +709,7 @@ export class CertificateOfOrigin extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Status</p>
+                <p classname="para">STATUS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STATUS" />
@@ -717,7 +717,7 @@ export class CertificateOfOrigin extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Date</p>
+                <p classname="para">DATE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="DATE FIELD" />
@@ -725,7 +725,7 @@ export class CertificateOfOrigin extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Shipper</p>
+                <p classname="para">SHIPPER NAME AND ADDRESS</p>
               </span>
               <div>
                 <input
@@ -737,7 +737,7 @@ export class CertificateOfOrigin extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Consignee</p>
+                <p classname="para">CONSIGNEE NAME AND ADDRESS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="SENSOR TYPES" />
@@ -745,7 +745,7 @@ export class CertificateOfOrigin extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Local Vessel</p>
+                <p classname="para">COUNTRY OF MANUFACTURE</p>
               </span>
               <div>
                 <input
@@ -757,7 +757,7 @@ export class CertificateOfOrigin extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Port of Discharge</p>
+                <p classname="para">TOTAL NO. OF PACKAGES</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="COST OF SENSORS" />
@@ -811,7 +811,7 @@ export class Insurance extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Steps</p>
+                <p classname="para">STEPS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STEPS" />
@@ -819,7 +819,7 @@ export class Insurance extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Status</p>
+                <p classname="para">STATUS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STATUS" />
@@ -827,7 +827,7 @@ export class Insurance extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Date</p>
+                <p classname="para">DATE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="DATE FIELD" />
@@ -835,7 +835,7 @@ export class Insurance extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Shipper</p>
+                <p classname="para">TOTAL INSURANCE PAID</p>
               </span>
               <div>
                 <input
@@ -847,7 +847,7 @@ export class Insurance extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Consignee</p>
+                <p classname="para">TYPE OF INSURANCE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="SENSOR TYPES" />
@@ -855,7 +855,7 @@ export class Insurance extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Local Vessel</p>
+                <p classname="para">INSURANCE VALID TILL</p>
               </span>
               <div>
                 <input
@@ -864,15 +864,7 @@ export class Insurance extends React.Component {
                   placeholder="NUMBER OF SENSORS"
                 />
               </div>
-            </div>
-            <div className="input-div">
-              <span className="para-wrap">
-                <p classname="para">Port of Discharge</p>
-              </span>
-              <div>
-                <input type="text" name="name" placeholder="COST OF SENSORS" />
-              </div>
-            </div>
+            </div>            
             <div>
               <input
                 className="submit-button"
@@ -920,7 +912,7 @@ export class TaxAndCustom extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Steps</p>
+                <p classname="para">STEPS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STEPS" />
@@ -928,7 +920,7 @@ export class TaxAndCustom extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Status</p>
+                <p classname="para">STATUS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STATUS" />
@@ -936,7 +928,7 @@ export class TaxAndCustom extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Date</p>
+                <p classname="para">DATE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="DATE FIELD" />
@@ -944,7 +936,7 @@ export class TaxAndCustom extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Shipper</p>
+                <p classname="para">TAX PAID</p>
               </span>
               <div>
                 <input
@@ -956,7 +948,7 @@ export class TaxAndCustom extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Consignee</p>
+                <p classname="para">TAX AMOUNT</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="SENSOR TYPE" />
@@ -964,7 +956,7 @@ export class TaxAndCustom extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Local Vessel</p>
+                <p classname="para">CUSTOMS PAID</p>
               </span>
               <div>
                 <input
@@ -976,7 +968,7 @@ export class TaxAndCustom extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Port of Discharge</p>
+                <p classname="para">CUSTOMS AMOUNT</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="COST OF SENSORS" />
@@ -1028,7 +1020,7 @@ export class Invoice extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Steps</p>
+                <p classname="para">STEP</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STEPS" />
@@ -1036,7 +1028,7 @@ export class Invoice extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Status</p>
+                <p classname="para">STATUS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STATUS" />
@@ -1044,7 +1036,7 @@ export class Invoice extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Date</p>
+                <p classname="para">DATE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="DATE FIELD" />
@@ -1052,7 +1044,7 @@ export class Invoice extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Shipper</p>
+                <p classname="para">ITEMS</p>
               </span>
               <div>
                 <input
@@ -1064,32 +1056,40 @@ export class Invoice extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Consignee</p>
-              </span>
-              <div>
-                <input type="text" name="name" placeholder="SENSOR TYPES" />
-              </div>
-            </div>
-            <div className="input-div">
-              <span className="para-wrap">
-                <p classname="para">Local Vessel</p>
+                <p classname="para">QUANTITY</p>
               </span>
               <div>
                 <input
                   type="text"
                   name="name"
-                  placeholder="NUMBER OF SENSORS"
+                  placeholder="ORGANISATIONAL DETAILS"
                 />
               </div>
-            </div>
+            </div>  
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Port of Discharge</p>
+                <p classname="para">COST</p>
               </span>
               <div>
-                <input type="text" name="name" placeholder="COST OF SENSORS" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="ORGANISATIONAL DETAILS"
+                />
               </div>
-            </div>
+            </div>  
+            <div className="input-div">
+              <span className="para-wrap">
+                <p classname="para">VENDOR DETAILS</p>
+              </span>
+              <div>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="ORGANISATIONAL DETAILS"
+                />
+              </div>
+            </div>              
             <div>
               <input
                 className="submit-button"
@@ -1136,7 +1136,7 @@ export class TransportDocument extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Steps</p>
+                <p classname="para">STEPS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STEPS" />
@@ -1144,7 +1144,7 @@ export class TransportDocument extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Status</p>
+                <p classname="para">STATUS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STATUS" />
@@ -1152,7 +1152,7 @@ export class TransportDocument extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Date</p>
+                <p classname="para">DATE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="DATE FIELD" />
@@ -1160,7 +1160,7 @@ export class TransportDocument extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Shipper</p>
+                <p classname="para">AWB NUMBER</p>
               </span>
               <div>
                 <input
@@ -1172,7 +1172,7 @@ export class TransportDocument extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Consignee</p>
+                <p classname="para">ITEMS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="SENSOR TYPES" />
@@ -1180,7 +1180,7 @@ export class TransportDocument extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Local Vessel</p>
+                <p classname="para">QUANTITY</p>
               </span>
               <div>
                 <input
@@ -1192,7 +1192,15 @@ export class TransportDocument extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Port of Discharge</p>
+                <p classname="para">COST</p>
+              </span>
+              <div>
+                <input type="text" name="name" placeholder="COST OF SENSORS" />
+              </div>
+            </div>
+            <div className="input-div">
+              <span className="para-wrap">
+                <p classname="para">TRANSPORT DETAILS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="COST OF SENSORS" />
@@ -1243,7 +1251,7 @@ export class BillOfExchange extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Steps</p>
+                <p classname="para">STEP</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STEPS" />
@@ -1251,7 +1259,7 @@ export class BillOfExchange extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Status</p>
+                <p classname="para">STATUS</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="STATUS" />
@@ -1259,7 +1267,7 @@ export class BillOfExchange extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Date</p>
+                <p classname="para">DATE</p>
               </span>
               <div>
                 <input type="text" name="name" placeholder="DATE FIELD" />
@@ -1267,7 +1275,7 @@ export class BillOfExchange extends React.Component {
             </div>
             <div className="input-div">
               <span className="para-wrap">
-                <p classname="para">Shipper</p>
+                <p classname="para">TENURE OF USANCE BILL</p>
               </span>
               <div>
                 <input
@@ -1276,35 +1284,7 @@ export class BillOfExchange extends React.Component {
                   placeholder="ORGANISATIONAL DETAILS"
                 />
               </div>
-            </div>
-            <div className="input-div">
-              <span className="para-wrap">
-                <p classname="para">Consignee</p>
-              </span>
-              <div>
-                <input type="text" name="name" placeholder="SENSOR TYPES" />
-              </div>
-            </div>
-            <div className="input-div">
-              <span className="para-wrap">
-                <p classname="para">Local Vessel</p>
-              </span>
-              <div>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="NUMBER OF SENSORS"
-                />
-              </div>
-            </div>
-            <div className="input-div">
-              <span className="para-wrap">
-                <p classname="para">Port of Discharge</p>
-              </span>
-              <div>
-                <input type="text" name="name" placeholder="COST OF SENSORS" />
-              </div>
-            </div>
+            </div>            
             <div>
               <input
                 className="submit-button"

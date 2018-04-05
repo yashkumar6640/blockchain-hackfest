@@ -86,7 +86,7 @@ export default class paymentProcess extends React.Component {
         <form>
           <div>
             <span className="para-wrap">
-              <p className="para">UUID :</p>
+              <p className="para">UUID</p>
             </span>
             <div>
               <input type="text" name="name" placeholder="UUID" />
@@ -94,7 +94,7 @@ export default class paymentProcess extends React.Component {
           </div>
           <div>
             <span className="para-wrap">
-              <p className="para">STEPS :</p>
+              <p className="para">STEPS</p>
             </span>
             <div>
               <input type="text" name="name" placeholder="STEPS" />
@@ -102,7 +102,7 @@ export default class paymentProcess extends React.Component {
           </div>
           <div>
             <span className="para-wrap">
-              <p className="para">STATUS :</p>
+              <p className="para">STATUS</p>
             </span>
             <div>
               <input type="text" name="name" placeholder="STATUS" />
@@ -110,7 +110,7 @@ export default class paymentProcess extends React.Component {
           </div>
           <div>
             <span className="para-wrap">
-              <p className="para">DATE :</p>
+              <p className="para">DATE</p>
             </span>
             <div>
               <input type="text" name="name" placeholder="DATE FIELD" />
@@ -118,7 +118,7 @@ export default class paymentProcess extends React.Component {
           </div>
           <div>
             <span className="para-wrap">
-              <p className="para">P :</p>
+              <p className="para">PAYMENT TO EXPORTER ACCOUNT</p>
             </span>
             <div>
               <input
@@ -130,7 +130,7 @@ export default class paymentProcess extends React.Component {
           </div>
           <div>
             <span className="para-wrap">
-              <p className="para">IMPORTER DETAILS :</p>
+              <p className="para">AMOUNT</p>
             </span>
             <div>
               <input

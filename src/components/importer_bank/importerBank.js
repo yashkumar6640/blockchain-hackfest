@@ -125,105 +125,105 @@ export default class ImporterBank extends React.Component {
                 <form>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">UUID :</p>
+                      <p className="para">UUID</p>
                     </span>
                     <div>
-                      <input type="text" name="name" placeholder="UUID" />
+                      <input type="text" name="uuid" placeholder="UUID" />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">STEPS :</p>
+                      <p className="para">STEP</p>
                     </span>
                     <div>
-                      <input type="text" name="name" placeholder="STEPS" />
+                      <input type="text" name="step" placeholder="STEP" />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">STATUS :</p>
+                      <p className="para">STATUS</p>
                     </span>
                     <div>
-                      <input type="text" name="name" placeholder="STATUS" />
+                      <input type="text" name="status" placeholder="STATUS" />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">DATE FIELD :</p>
+                      <p className="para">DATE</p>
                     </span>
                     <div>
-                      <input type="text" name="name" placeholder="DATE FIELD" />
+                      <input type="text" name="date" placeholder="DATE FIELD" />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">ARRANGER BANK :</p>
+                      <p className="para">ARRANGER BANK</p>
                     </span>
                     <div>
                       <input
                         type="text"
-                        name="name"
-                        placeholder="ORGANISATIONAL DETAILS"
+                        name="arrangerbank"
+                        placeholder="ARRANGER BANK"
                       />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">CREDIT AMOUNT :</p>
+                      <p className="para">CREDIT AMOUNT</p>
                     </span>
                     <div>
                       <input
                         type="text"
-                        name="name"
-                        placeholder="SENSOR TYPES"
+                        name="creditamount"
+                        placeholder="CREDIT AMOUNT"
                       />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">BANK 1 :</p>
+                      <p className="para">BANK 1</p>
                     </span>
                     <div>
                       <input
                         type="text"
-                        name="name"
-                        placeholder="NUMBER OF SENSORS"
+                        name="bank1"
+                        placeholder="BANK 1"
                       />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">CREDIT AMOUNT :</p>
+                      <p className="para">CREDIT AMOUNT 1</p>
                     </span>
                     <div>
                       <input
                         type="text"
-                        name="name"
-                        placeholder="COST OF SENSORS"
+                        name="creditamount1"
+                        placeholder="CREDIT AMOUNT"
                       />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">BANK 2 :</p>
+                      <p className="para">BANK 2</p>
                     </span>
                     <div>
                       <input
                         type="text"
-                        name="name"
-                        placeholder="COST OF SENSORS"
+                        name="bank2"
+                        placeholder="BANK 2"
                       />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">CREDIT AMOUNT :</p>
+                      <p className="para">CREDIT AMOUNT 2</p>
                     </span>
                     <div>
                       <input
                         type="text"
-                        name="name"
-                        placeholder="COST OF SENSORS"
+                        name="creditamount2"
+                        placeholder="CREDIT AMOUNT2"
                       />
                     </div>
                   </div>

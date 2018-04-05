@@ -17,9 +17,13 @@ export default class PORequest extends React.Component {
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleClick = this.handleClick.bind(this);
+    this.handleChan = this.handleChange.bind(this);
   }
   componentWillMount() {
     console.log("Inside PO request", this.props.getCurrentDate());
+  }
+  handleChange(e){
+
   }
   handleSubmit() {
     this.props.updateStep(2);
@@ -131,81 +135,83 @@ export default class PORequest extends React.Component {
                 <form>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">UUID :</p>
+                      <p className="para">UUID</p>
                     </span>
                     <div>
-                      <input type="text" name="name" placeholder="UUID" />
+                      <input type="text" name="uuid" placeholder="UUID" />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">STEPS :</p>
+                      <p className="para">STEPS</p>
                     </span>
                     <div>
-                      <input type="text" name="name" placeholder="STEPS" />
+                      <input type="text" name="step" placeholder="STEP" />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">STATUS :</p>
+                      <p className="para">STATUS</p>
                     </span>
                     <div>
-                      <input type="text" name="name" placeholder="STATUS" />
+                      <input type="text" name="status" placeholder="STATUS" />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">DATE FIELD :</p>
+                      <p className="para">DATE FIELD</p>
                     </span>
                     <div>
-                      <input type="text" name="name" placeholder="DATE FIELD" />
+                      <input type="text" name="date" placeholder="DATE FIELD" />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">ORGANISATIONAL DETAILS :</p>
+                      <p className="para">ORGANISATIONAL DETAILS</p>
                     </span>
                     <div>
                       <input
                         type="text"
                         name="name"
-                        placeholder="ORGANISATIONAL DETAILS"
+                        placeholder="organizationdetail"
                       />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">SENSOR TYPES :</p>
+                      <p className="para">SENSOR TYPES</p>
                     </span>
                     <div>
                       <input
                         type="text"
-                        name="name"
+                        name="sensortype"
                         placeholder="SENSOR TYPES"
                       />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">NUMBER OF SENSORS :</p>
+                      <p className="para">NUMBER OF SENSORS</p>
                     </span>
                     <div>
                       <input
                         type="text"
-                        name="name"
+                        name="nos"
                         placeholder="NUMBER OF SENSORS"
                       />
                     </div>
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">COST OF SENSORS :</p>
+                      <p className="para">COST OF SENSORS</p>
                     </span>
                     <div>
                       <input
                         type="text"
-                        name="name"
-                        placeholder="COST OF SENSORS"
+                        value="1234"
+                        name="cos"
+                        onChange={this.handleChange}
+                        
                       />
                     </div>
                   </div>

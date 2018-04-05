@@ -99,7 +99,7 @@ export default class GoodsRecieved extends React.Component {
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">STEPS :</p>
+                      <p className="para">STEPS</p>
                     </span>
                     <div>
                       <input type="text" name="name" placeholder="STEPS" />
@@ -107,7 +107,7 @@ export default class GoodsRecieved extends React.Component {
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">STATUS :</p>
+                      <p className="para">STATUS</p>
                     </span>
                     <div>
                       <input type="text" name="name" placeholder="STATUS" />
@@ -115,7 +115,7 @@ export default class GoodsRecieved extends React.Component {
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">DATE :</p>
+                      <p className="para">DATE</p>
                     </span>
                     <div>
                       <input type="text" name="name" placeholder="DATE FIELD" />
@@ -123,7 +123,7 @@ export default class GoodsRecieved extends React.Component {
                   </div>
                   <div>
                     <span className="para-wrap">
-                      <p className="para">RECIEVED FROM :</p>
+                      <p className="para">CONSIGNMENT RECIEVED</p>
                     </span>
                     <div>
                       <input
@@ -132,19 +132,7 @@ export default class GoodsRecieved extends React.Component {
                         placeholder="ORGANISATIONAL DETAILS"
                       />
                     </div>
-                  </div>
-                  <div>
-                    <span className="para-wrap">
-                      <p className="para">IMPORTER DETAILS :</p>
-                    </span>
-                    <div>
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="ORGANISATIONAL DETAILS"
-                      />
-                    </div>
-                  </div>
+                  </div>                  
                   <div>
                     <input
                       className="submit-button"

@@ -120,82 +120,82 @@ export default class SaleAgreement extends React.Component {
                   <form>
                       <div>
                           <span className="para-wrap">
-                              <p classname="para">UUID :</p>
+                              <p classname="para">UUID</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="UUID"></input>
+                              <input type="text" name="uuid" placeholder="UUID"></input>
                           </div>
                       </div>
                       <div>
                       <span className="para-wrap">
-                              <p classname="para">STEP :</p>
+                              <p classname="para">STEP</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="STEPS"></input>
+                              <input type="text" name="step" placeholder="STEP"></input>
                           </div>
                       </div>
                       <div>
                       <span className="para-wrap">
-                              <p classname="para">STATUS :</p>
+                              <p classname="para">STATUS</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="STATUS"></input>
+                              <input type="text" name="status" placeholder="STATUS"></input>
                           </div>
                       </div>
                       <div>
                       <span className="para-wrap">
-                              <p classname="para">DATE :</p>
+                              <p classname="para">DATE</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="DATE FIELD"></input>
+                              <input type="text" name="date" placeholder="DATE FIELD"></input>
                           </div>
                       </div>
                       <div>
                       <span className="para-wrap">
-                              <p classname="para">VENDOR'S NAME :</p>
+                              <p classname="para">VENDOR'S NAME</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="ORGANISATIONAL DETAILS"></input>
+                              <input type="text" name="vendorname" placeholder="ORGANISATIONAL DETAILS"></input>
                           </div>
                       </div>
                       <div>
                       <span className="para-wrap">
-                              <p classname="para">NUMBER OF SENSORS :</p>
+                              <p classname="para">NUMBER OF SENSORS</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="SENSOR TYPES"></input>
+                              <input type="text" name="nos" placeholder="NUMBER OF SENSOR"></input>
                           </div>
                       </div>
                       <div>
                       <span className="para-wrap">
-                              <p classname="para">COST OF SENSORS :</p>
+                              <p classname="para">COST OF SENSORS</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="NUMBER OF SENSORS"></input>
+                              <input type="text" name="cos" placeholder="COST OF SENSORS"></input>
                           </div>
                       </div>
                       <div>
                       <span className="para-wrap">
-                              <p classname="para">DELIVERY DATE :</p>
+                              <p classname="para">DELIVERY DATE</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="COST OF SENSORS"></input>
+                              <input type="text" name="deliverydate" placeholder=">DELIVERY DATE"></input>
                           </div>
                       </div>
                       <div>
                       <span className="para-wrap">
-                              <p classname="para">DELIVERY TYPE :</p>
+                              <p classname="para">DELIVERY TYPE</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="COST OF SENSORS"></input>
+                              <input type="text" name="deliverytype" placeholder="DELIVERY TYPE"></input>
                           </div>
                       </div>
                       <div>
                       <span className="para-wrap">
-                              <p classname="para">EXPORTER BANK :</p>
+                              <p classname="para">EXPORTER BANK</p>
                           </span>
                           <div>
-                              <input type="text" name="name" placeholder="COST OF SENSORS"></input>
+                              <input type="text" name="exporterbank" placeholder="EXPORTER BANK"></input>
                           </div>
                       </div>
                       <div>
