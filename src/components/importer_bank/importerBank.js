@@ -19,10 +19,62 @@ export default class ImporterBank extends React.Component {
     };
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleClick = this.handleClick.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
   componentWillMount() {
     console.log("Inside importer bank  request", this.props.getCurrentDate());
   }
+
+  handleChange(e) {
+    switch (e.target.name) {
+      case "arrangerbank": {
+        this.setState({
+          arrangerBank: e.target.value
+        });
+        break;
+      }
+      case "creditamount": {
+        this.setState({
+          creditAmount: e.target.value
+        });
+        break;
+      }
+      case "bank1": {
+        this.setState({
+          bank1: e.target.value
+        });
+        break;
+      }
+      case "creditamount1": {
+        this.setState({
+          creditAmount1: e.target.value
+        });
+        break;
+      }
+      case "bank2": {
+        this.setState({
+          bank2: e.target.value
+        });
+        break;
+      }
+      case "creditAmount2": {
+        this.setState({
+          creditAmount2: e.target.value
+        });
+        break;
+      }
+    }
+
+    console.log(
+      this.state.arrangerBank,
+      this.state.creditAmount,
+      this.state.creditAmount2,
+      this.state.creditAmount1,
+      this.state.bank1,
+      this.state.bank2
+    );
+  }
+
   handleSubmit() {
     this.props.updateStep(3);
     var dateTime = this.props.getCurrentDate();
@@ -128,7 +180,12 @@ export default class ImporterBank extends React.Component {
                       <p className="para">UUID</p>
                     </span>
                     <div>
-                      <input type="text" name="uuid" placeholder="UUID" />
+                      <input
+                        type="text"
+                        name="uuid"
+                        placeholder="UUID"
+                        onChange={this.handleChange}
+                      />
                     </div>
                   </div>
                   <div>
@@ -136,7 +193,12 @@ export default class ImporterBank extends React.Component {
                       <p className="para">STEP</p>
                     </span>
                     <div>
-                      <input type="text" name="step" placeholder="STEP" />
+                      <input
+                        type="text"
+                        name="step"
+                        placeholder="STEP"
+                        onChange={this.handleChange}
+                      />
                     </div>
                   </div>
                   <div>
@@ -144,7 +206,12 @@ export default class ImporterBank extends React.Component {
                       <p className="para">STATUS</p>
                     </span>
                     <div>
-                      <input type="text" name="status" placeholder="STATUS" />
+                      <input
+                        type="text"
+                        name="status"
+                        placeholder="STATUS"
+                        onChange={this.handleChange}
+                      />
                     </div>
                   </div>
                   <div>
@@ -152,7 +219,12 @@ export default class ImporterBank extends React.Component {
                       <p className="para">DATE</p>
                     </span>
                     <div>
-                      <input type="text" name="date" placeholder="DATE FIELD" />
+                      <input
+                        type="text"
+                        name="date"
+                        placeholder="DATE FIELD"
+                        onChange={this.handleChange}
+                      />
                     </div>
                   </div>
                   <div>
@@ -164,6 +236,7 @@ export default class ImporterBank extends React.Component {
                         type="text"
                         name="arrangerbank"
                         placeholder="ARRANGER BANK"
+                        onChange={this.handleChange}
                       />
                     </div>
                   </div>
@@ -176,6 +249,7 @@ export default class ImporterBank extends React.Component {
                         type="text"
                         name="creditamount"
                         placeholder="CREDIT AMOUNT"
+                        onChange={this.handleChange}
                       />
                     </div>
                   </div>
@@ -184,11 +258,7 @@ export default class ImporterBank extends React.Component {
                       <p className="para">BANK 1</p>
                     </span>
                     <div>
-                      <input
-                        type="text"
-                        name="bank1"
-                        placeholder="BANK 1"
-                      />
+                      <input type="text" name="bank1" placeholder="BANK 1" />
                     </div>
                   </div>
                   <div>
@@ -208,11 +278,7 @@ export default class ImporterBank extends React.Component {
                       <p className="para">BANK 2</p>
                     </span>
                     <div>
-                      <input
-                        type="text"
-                        name="bank2"
-                        placeholder="BANK 2"
-                      />
+                      <input type="text" name="bank2" placeholder="BANK 2" />
                     </div>
                   </div>
                   <div>

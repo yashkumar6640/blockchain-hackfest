@@ -138,7 +138,8 @@ export default class PORequest extends React.Component {
                       <p className="para">UUID</p>
                     </span>
                     <div>
-                      <input type="text" name="uuid" placeholder="UUID" />
+                      <input type="text" name="uuid" placeholder="UUID"                         onChange={this.handleChange}
+ />
                     </div>
                   </div>
                   <div>
@@ -146,7 +147,8 @@ export default class PORequest extends React.Component {
                       <p className="para">STEPS</p>
                     </span>
                     <div>
-                      <input type="text" name="step" placeholder="STEP" />
+                      <input type="text" name="step" placeholder="STEP"                         onChange={this.handleChange}
+/>
                     </div>
                   </div>
                   <div>
@@ -154,7 +156,8 @@ export default class PORequest extends React.Component {
                       <p className="para">STATUS</p>
                     </span>
                     <div>
-                      <input type="text" name="status" placeholder="STATUS" />
+                      <input type="text" name="status" placeholder="STATUS"                         onChange={this.handleChange}
+/>
                     </div>
                   </div>
                   <div>
@@ -162,7 +165,8 @@ export default class PORequest extends React.Component {
                       <p className="para">DATE FIELD</p>
                     </span>
                     <div>
-                      <input type="text" name="date" placeholder="DATE FIELD" />
+                      <input type="text" name="date" placeholder="DATE FIELD"                         onChange={this.handleChange}
+/>
                     </div>
                   </div>
                   <div>
@@ -174,6 +178,8 @@ export default class PORequest extends React.Component {
                         type="text"
                         name="name"
                         placeholder="organizationdetail"
+                        onChange={this.handleChange}
+
                       />
                     </div>
                   </div>
@@ -186,6 +192,8 @@ export default class PORequest extends React.Component {
                         type="text"
                         name="sensortype"
                         placeholder="SENSOR TYPES"
+                        onChange={this.handleChange}
+
                       />
                     </div>
                   </div>
@@ -198,6 +206,8 @@ export default class PORequest extends React.Component {
                         type="text"
                         name="nos"
                         placeholder="NUMBER OF SENSORS"
+                        onChange={this.handleChange}
+
                       />
                     </div>
                   </div>
@@ -211,6 +221,7 @@ export default class PORequest extends React.Component {
                         value="1234"
                         name="cos"
                         onChange={this.handleChange}
+                        
                         
                       />
                     </div>
